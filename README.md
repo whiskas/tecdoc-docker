@@ -24,9 +24,9 @@ pgloader mysql://tecdoc:tecdoc@localhost/tecdoc postgresql://tecdoc:tecdoc@local
 
 Порывшись в сети вижу, что можно получить td1q2018 из открытых источников. Сделал docker volumes для
 
-- [mysql-5.7-td1q2018-docker-volume.zip](https://mega.nz/#!1VAUlI5J)
-- [mysql-8.0-td1q2018-docker-volume.zip](https://mega.nz/#!sdRmmQpJ)
-- [pg-11-td1q2018-docker-volumes.zip](https://mega.nz/#!wYxUCKpJ)
+- [mysql-5.7-td1q2018-docker-volume.zip](https://mega.nz/#!1VAUlI5J!z8HzJlKM-XgNxZnTTSih0l03yb5vsLFZf-rt12-RXlU)
+- [mysql-8.0-td1q2018-docker-volume.zip](https://mega.nz/#!sdRmmQpJ!vs7MTiBratWsXDVC3e8VW_nV5wx_nPdwUCVM8FV-N0Q)
+- [pg-11-td1q2018-docker-volumes.zip](https://mega.nz/#!wYxUCKpJ!QTlJDIY4aTDarzwN2OYPy4Qwcx3rCjiiqaV9ehWjpIw)
 
 Краткая нисрукция для начинающих
 
