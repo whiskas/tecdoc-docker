@@ -1,0 +1,14 @@
+version: "3"
+services:
+  mysql-tecdoc:
+    image: mysql:8
+    restart: always
+    command: >
+      --max_allowed_packet=500000M
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql-tecdoc:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=tecdoc
+    container_name: mysql-tecdoc

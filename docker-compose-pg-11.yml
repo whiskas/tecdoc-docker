@@ -1,0 +1,13 @@
+version: "3"
+services:
+  pg-tecdoc:
+    image: postgres:11-alpine
+    restart: always
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./pg-tecdoc:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=$ROOT_PASSWORD
+      - POSTGRES_PASSWORD=$ROOT_PASSWORD
+    container_name: pg-tecdoc
